@@ -1,0 +1,247 @@
+{
+  "navigation": {
+    "aboutUs": "Om Oss",
+    "whatWeDo": "Hva Vi Gjør",
+    "supportUs": "Støtt Oss",
+    "information": "Informasjon",
+    "ourStory": "Vår Historie",
+    "contact": "Kontakt",
+    "programs": "Våre Programmer",
+    "services": "Våre Tjenester",
+    "volunteer": "Bli Frivillig",
+    "donate": "Doner",
+    "forParents": "For Foreldre",
+    "forHealthcare": "For Helsepersonell",
+    "search": "Søk"
+  },
+  "home": {
+    "hero": {
+      "title": "Hjelper små hjerter å helbrede, ett skritt av gangen",
+      "subtitle": "Fordi hvert barn fortjener kjærlighet og støtte",
+      "donateButton": "Gi en Donasjon",
+      "learnMoreButton": "Lær Mer"
+    },
+    "features": {
+      "title": "Hvordan Vi Hjelper",
+      "professionalCare": {
+        "title": "Profesjonell Omsorg",
+        "description": "Vårt erfarne team gir spesialisert psykologisk støtte tilpasset hvert barns behov."
+      },
+      "communitySupport": {
+        "title": "Fellesskapsstøtte",
+        "description": "Vi bygger et støttende nettverk av familier, omsorgspersoner og fagfolk som jobber sammen."
+      },
+      "safeEnvironment": {
+        "title": "Trygt Miljø",
+        "description": "Skaper et sikkert og nærende rom hvor barn kan helbrede og vokse."
+      }
+    },
+    "testimonials": {
+      "title": "Hva Familier Sier",
+      "testimonial1": {
+        "text": "FRITT SINN-programmet har gjort en stor forskjell i livene våre. Barnet vårt har vist bemerkelsesverdig fremgang.",
+        "author": "Sarah M."
+      },
+      "testimonial2": {
+        "text": "Støtten vi fikk var eksepsjonell. Teamet forstår virkelig hva familier trenger.",
+        "author": "John D."
+      }
+    },
+    "contact": {
+      "needHelp": "Trenger du hjelp eller har spørsmål? Ta kontakt med oss:",
+      "email": "fromabove@protonmail.com"
+    }
+  },
+  "donate": {
+    "title": "Støtt Vårt Oppdrag",
+    "subtitle": "Din donasjon hjelper oss å gi viktig psykologisk støtte til barn og familier som trenger det. Hvert bidrag gjør en forskjell i å skape positiv endring.",
+    "ways": {
+      "title": "Måter å Gi På",
+      "oneTime": {
+        "title": "Engangsgave",
+        "description": "Gjør en umiddelbar forskjell med et enkelt bidrag av valgfritt beløp.",
+        "button": "Doner Nå"
+      },
+      "monthly": {
+        "title": "Månedlig Støtte",
+        "description": "Bli med i vårt fellesskap av månedlige givere og hjelp til med å sikre bærekraftig støtte.",
+        "button": "Bli Månedlig Giver"
+      }
+    },
+    "impact": {
+      "title": "Din Påvirkning",
+      "points": [
+        "Støtt psykologisk omsorg for barn og familier som trenger det",
+        "Hjelp til med å utvide vårt FRITT SINN-program for å nå flere samfunn",
+        "Muliggjør faglig opplæring og samfunnsrettede initiativer"
+      ]
+    },
+    "contact": {
+      "text": "For spørsmål om donasjoner eller andre måter å støtte vårt oppdrag på:",
+      "email": "fromabove@protonmail.com"
+    }
+  },
+  "programs": {
+    "title": "Våre Programmer",
+    "frittSinn": {
+      "title": "FRITT SINN-Programmet",
+      "description": "FRITT SINN-programmet er grunnlaget for vårt arbeid, designet for å forebygge psykiatriske diagnoser ved å fremme selvbevissthet, emosjonell motstandskraft og sosial intelligens. Det er et strukturert, men tilpasningsdyktig system som hjelper individer å få kontroll over sine tanker, følelser og mellommenneskelige relasjoner.",
+      "objectives": {
+        "title": "Hovedmål",
+        "selfReeducation": "Selv-reeducering – Individer lærer å bli forfattere av sine egne personlige og psykologiske fortellinger.",
+        "socialDevelopment": "Sosial Utvikling – Styrking av mellommenneskelige relasjoner og fremme av teamarbeid, samarbeid og toleranse.",
+        "emotionalMastery": "Emosjonell Mestring – Utvikle mestringsmekanismer for å håndtere stress, frustrasjon og emosjonelle tilbakeslag.",
+        "professionalGrowth": "Profesjonell og Personlig Vekst – Oppmuntre til kritisk tenkning, problemløsning og entreprenøriske tankesett."
+      },
+      "tools": {
+        "title": "De 12 Multifokale Verktøyene",
+        "description": "Vårt program er strukturert rundt 12 kjerneverktøy for personlig transformasjon:",
+        "list": [
+          "Filosofiske Prinsipper for Selvvekst",
+          "Bli Forfatteren av Din Egen Historie",
+          "Effektiv Tankehåndtering",
+          "Emosjonell Regulering og Beskyttelse",
+          "Hukommelse og Redigering av det Ubevisste",
+          "Aktiv Lytting og Meningsfulle Samtaler",
+          "Mestring av Selvdialog og Refleksjon",
+          "Gjenkjenne og Skape Skjønnhet i Livet",
+          "Frigjøre Kreativitet og Entreprenørisk Tenkning",
+          "Balansere Disiplin med Aspirasjoner",
+          "Entreprenørskap som Livsferdighet",
+          "Bygge Motstandsdyktighet og Eksistensiell Intelligens"
+        ],
+        "note": "Disse verktøyene har blitt grundig analysert ved hjelp av Teorien om Multifokal Intelligens (TMI) for å sikre deres effektivitet i å fremme langsiktig mental velvære."
+      }
+    },
+    "supportGroups": {
+      "title": "Støttegrupper",
+      "description": "Vi tilbyr trygge rom hvor barn, foreldre og omsorgspersoner kan dele sine erfaringer, motta veiledning og støtte hverandre.",
+      "benefits": [
+        "Bygge en følelse av fellesskap og tilhørighet",
+        "Tilby et ikke-dømmende miljø for åpne diskusjoner",
+        "Utstyre familier med praktiske mestringsstrategier for mental velvære"
+      ]
+    },
+    "workshops": {
+      "title": "Pedagogiske Workshops",
+      "description": "For å ytterligere støtte individer, tilbyr vi spesialiserte workshops tilpasset ulike målgrupper:",
+      "audiences": {
+        "parents": "Foreldre og Omsorgspersoner – Lær hvordan støtte barns emosjonelle behov",
+        "educators": "Pedagoger og Fagfolk – Få verktøy for å fremme motstandsdyktighet og psykologisk velvære",
+        "children": "Barn og Ungdom – Utvikle ferdigheter for selvbevissthet, problemløsning og sosial interaksjon"
+      }
+    },
+    "commitment": "From Above er dedikert til å utstyre individer med kunnskapen og selvtilliten til å leve oppfyllende liv.",
+    "contact": {
+      "text": "Kontakt oss for å lære mer:",
+      "email": "fromabove@protonmail.com"
+    }
+  },
+  "about": {
+    "title": "Om From Above",
+    "mission": {
+      "title": "Vår Misjon",
+      "description": "From Above er et dedikert initiativ som tar sikte på å fremme mental velvære og selvutvikling gjennom FRITT SINN-programmet, et globalt verktøy for å forebygge psykiatriske diagnoser. Vi tror at hvert individ har kraften til å forme sin egen livshistorie og utvikle ferdighetene som trengs for å navigere emosjonelle, sosiale og profesjonelle utfordringer. Vårt mål er å styrke barn, ungdom, foreldre og fagfolk med kunnskap og verktøy for psykologisk egenomsorg og personlig vekst."
+    },
+    "program": {
+      "title": "FRITT SINN-Programmet",
+      "description": "Vår spesialiserte tilnærming kombinerer evidensbasert praksis med medfølende støtte, med fokus på:",
+      "assessment": "Individuell psykologisk vurdering og omsorgsplanlegging",
+      "therapy": "Familiesentrerte terapiøkter",
+      "creative": "Kreativt uttrykk og leketerapi",
+      "skills": "Sosial ferdighetsutvikling",
+      "support": "Pedagogisk støtte og veiledning"
+    },
+    "approach": {
+      "title": "Vår Tilnærming",
+      "description": "Vi forstår at hvert barns reise er unik. Vårt team av erfarne fagfolk jobber tett med familier for å skape personlige omsorgsplaner.",
+      "point1": "Omfattende vurdering og individuell planlegging",
+      "point2": "Familiesentrert tilnærming med aktiv foreldredeltakelse",
+      "point3": "Integrering av kreative og terapeutiske teknikker"
+    },
+    "values": {
+      "title": "Våre Verdier",
+      "empowerment": {
+        "title": "Myndiggjøring",
+        "description": "Gjøre individer i stand til å ta kontroll over sin mentale velvære"
+      },
+      "empathy": {
+        "title": "Empati",
+        "description": "Forstå og knytte seg til hver persons unike opplevelse"
+      },
+      "quality": {
+        "title": "Kvalitetsomsorg",
+        "description": "Levere evidensbasert, profesjonell støtte"
+      },
+      "community": {
+        "title": "Fellesskap",
+        "description": "Bygge støttende nettverk for varig endring"
+      },
+      "holistic": {
+        "title": "Helhetlig Vekst",
+        "description": "Fremme emosjonell, sosial og personlig utvikling"
+      }
+    },
+    "contact": {
+      "text": "Klar for å lære mer om hvordan vi kan hjelpe?",
+      "email": "fromabove@protonmail.com"
+    },
+    "slogan": "Fordi hvert barn fortjener å skinne"
+  },
+  "contact": {
+    "title": "Kontakt Oss",
+    "getInTouch": "Ta Kontakt",
+    "helpMessage": "Vi er her for å hjelpe. Send oss en melding, så svarer vi så snart som mulig.",
+    "form": {
+      "name": "Navn",
+      "namePlaceholder": "Ditt navn",
+      "email": "E-post",
+      "emailPlaceholder": "din@epost.com",
+      "message": "Melding",
+      "messagePlaceholder": "Hvordan kan vi hjelpe?",
+      "submit": "Send Melding"
+    },
+    "otherWays": "Andre Måter å Nå Oss På",
+    "email": "E-post",
+    "hours": "Åpningstider",
+    "workdays": "Mandag - Fredag",
+    "workHours": "09:00 - 17:00 CET",
+    "response": "Svartid",
+    "responseTime": "Vi streber etter å svare på alle henvendelser innen 24 timer"
+  },
+  "services": {
+    "title": "Våre Tjenester",
+    "psychological": {
+      "title": "Personlig Psykologisk Støtte",
+      "description": "Vi forstår at hver persons reise er unik. Vårt team av fagfolk tilbyr personlige vurderinger og skreddersydd psykologisk støtte, inkludert:",
+      "evaluations": "Omfattende psykisk helsevurderinger",
+      "carePlans": "Tilpassede psykologiske omsorgsplaner",
+      "crisis": "Kriseintervensjon og emosjonell støtte"
+    },
+    "family": {
+      "title": "Familiesentrert Terapi",
+      "description": "Familier spiller en avgjørende rolle i et barns velvære. Våre familieorienterte terapiøkter tilbyr:",
+      "parental": "Foreldreveiledning for å støtte et nærende hjemmemiljø",
+      "sibling": "Søsken- og storfamiliestøtte for å styrke relasjoner",
+      "group": "Gruppeterapimuligheter for å fremme sunn familiekommunikasjon"
+    },
+    "creative": {
+      "title": "Kreative og Ekspressive Terapier",
+      "description": "For barn og ungdom er kreativt uttrykk ofte den beste måten å bearbeide følelser og utvikle mestringsstrategier. Vi tilb yr:",
+      "art": "Kunst- og Leketerapi – Oppmuntrer til følelsesmessig uttrykk gjennom kreativitet",
+      "social": "Sosial Utviklingsworkshops – Hjelper barn å bygge selvtillit og kommunikasjonsferdigheter",
+      "group": "Interaktive Gruppeaktiviteter – Gir muligheter for teamarbeid, empati og personlig vekst"
+    },
+    "professional": {
+      "title": "Profesjonell Opplæring og Samfunnsstøtte",
+      "description": "Utover direkte tjenester er vi forpliktet til å bygge et nettverk av utdannede fagfolk og samfunnstalspersoner. Våre tjenester inkluderer:",
+      "workshops": "Pedagogiske workshops for lærere, omsorgspersoner og psykisk helsepersonell",
+      "community": "Samfunnsrettede initiativer for å øke bevisstheten om psykisk helse og motstandskraft",
+      "resources": "Nettbaserte ressurser og støttemateriell for selvledet læring"
+    },
+    "contact": {
+      "text": "From Above er dedikert til å sikre at barn, familier og fagfolk har tilgang til effektive, medfølende og evidensbaserte psykologiske tjenester for å fremme langsiktig velvære og suksess.",
+      "email": "fromabove@protonmail.com"
+    }
+  }
+}

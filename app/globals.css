@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Dark theme colors */
+  --color-primary: 255 99 99; /* Red accent */
+  --color-secondary: 103 232 249; /* Cyan accent */
+  --color-background: 17 24 39; /* Dark background */
+  --color-surface: 31 41 55; /* Darker surface */
+  --color-text: 229 231 235;
+  --color-text-light: 156 163 175;
+  --color-card: 31 41 55;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-gray-100 antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins font-semibold text-white;
+  }
+
+  p {
+    @apply font-open-sans text-gray-300;
+  }
+}
+
+@layer components {
+  .nav-button {
+    @apply px-4 py-2 text-gray-300 hover:text-white font-medium 
+           transition-all duration-200 hover:bg-white/5 rounded-lg;
+  }
+
+  .nav-button-active {
+    @apply text-white bg-white/10;
+  }
+
+  .card {
+    @apply bg-gray-800 rounded-xl p-6 hover:bg-gray-800/80 transition-colors;
+  }
+
+  .language-selector {
+    @apply flex items-center space-x-2 text-sm;
+  }
+
+  .language-button {
+    @apply px-4 py-1.5 rounded-full transition-all duration-200 font-medium;
+  }
+
+  .language-button-active {
+    @apply bg-blue-500 text-white;
+  }
+
+  .language-button-inactive {
+    @apply text-gray-400 hover:text-white hover:bg-gray-800;
+  }
+}

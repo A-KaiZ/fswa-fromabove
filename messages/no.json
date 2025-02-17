@@ -1,0 +1,53 @@
+{
+  "navigation": {
+    "home": "Hjem",
+    "whatWeDo": "Hva Vi Gjør",
+    "howToHelp": "Støtt Oss",
+    "about": "Om Oss",
+    "donate": "Doner",
+    "programs": "Våre Programmer",
+    "services": "Våre Tjenester",
+    "volunteer": "Bli Frivillig",
+    "ourStory": "Vår Historie",
+    "contact": "Kontakt",
+    "information": "Informasjon"
+  },
+  "hero": {
+    "title": "Hjelper små hjerter å hele, ett skritt om gangen",
+    "subtitle": "Fordi hvert barn fortjener kjærlighet og støtte",
+    "cta": {
+      "primary": "Gi en donasjon",
+      "secondary": "Lær mer"
+    }
+  },
+  "features": {
+    "title": "Hvordan vi hjelper",
+    "professional": {
+      "title": "Profesjonell omsorg",
+      "description": "Vårt erfarne team gir spesialisert psykologisk støtte tilpasset hvert barns behov."
+    },
+    "community": {
+      "title": "Fellesskapsstøtte",
+      "description": "Vi bygger et støttende nettverk av familier, omsorgspersoner og fagfolk som jobber sammen."
+    },
+    "safety": {
+      "title": "Trygt miljø",
+      "description": "Skaper et sikkert og nærende rom hvor barn kan hele og vokse."
+    }
+  },
+  "testimonials": {
+    "title": "Hva familier sier",
+    "sarah": {
+      "quote": "FRITT SINN-programmet har gjort en stor forskjell i livene våre. Barnet vårt har vist bemerkelsesverdig fremgang.",
+      "name": "Sarah M."
+    },
+    "john": {
+      "quote": "Støtten vi fikk var eksepsjonell. Teamet forstår virkelig hva familier trenger.",
+      "name": "John D."
+    }
+  },
+  "contact": {
+    "email": "Kontakt oss: ",
+    "needHelp": "Trenger du hjelp eller har spørsmål? Ta kontakt med oss:"
+  }
+}

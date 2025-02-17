@@ -1,0 +1,52 @@
+{
+  "navigation": {
+    "home": "Home",
+    "whatWeDo": "What we do",
+    "howToHelp": "How you can help",
+    "about": "About us",
+    "donate": "Donate",
+    "programs": "Our Programs",
+    "services": "Our Services",
+    "volunteer": "Volunteer",
+    "ourStory": "Our Story",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Helping little hearts heal, one step at a time",
+    "subtitle": "Because every child deserves love and support",
+    "cta": {
+      "primary": "Make a donation",
+      "secondary": "Learn More"
+    }
+  },
+  "features": {
+    "title": "How We Help",
+    "professional": {
+      "title": "Professional Care",
+      "description": "Our experienced team provides specialized psychological support tailored to each child's needs."
+    },
+    "community": {
+      "title": "Community Support",
+      "description": "We build a supportive network of families, caregivers, and professionals working together."
+    },
+    "safety": {
+      "title": "Safe Environment",
+      "description": "Creating a secure and nurturing space where children can heal and grow."
+    }
+  },
+  "testimonials": {
+    "title": "What Families Say",
+    "sarah": {
+      "quote": "The FRITT SINN program has made such a difference in our lives. Our child has shown remarkable progress.",
+      "name": "Sarah M."
+    },
+    "john": {
+      "quote": "The support we received was exceptional. The team truly understands what families need.",
+      "name": "John D."
+    }
+  },
+  "contact": {
+    "email": "Contact us: ",
+    "needHelp": "Need help or have questions? Reach out to us:"
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "navigation": {
+    "aboutUs": "About Us",
+    "whatWeDo": "What We Do",
+    "supportUs": "Support Us",
+    "information": "Information",
+    "ourStory": "Our Story",
+    "contact": "Contact",
+    "programs": "Our Programs",
+    "services": "Our Services",
+    "volunteer": "Volunteer",
+    "donate": "Donate",
+    "forParents": "For Parents",
+    "forHealthcare": "For Healthcare Providers",
+    "search": "Search"
+  },
+  "home": {
+    "hero": {
+      "title": "Helping little hearts heal, one step at a time",
+      "subtitle": "Because every child deserves love and support",
+      "donateButton": "Make a Donation",
+      "learnMoreButton": "Learn More"
+    },
+    "features": {
+      "title": "How We Help",
+      "professionalCare": {
+        "title": "Professional Care",
+        "description": "Our experienced team provides specialized psychological support tailored to each child's needs."
+      },
+      "communitySupport": {
+        "title": "Community Support",
+        "description": "We build a supportive network of families, caregivers, and professionals working together."
+      },
+      "safeEnvironment": {
+        "title": "Safe Environment",
+        "description": "Creating a secure and nurturing space where children can heal and grow."
+      }
+    },
+    "testimonials": {
+      "title": "What Families Say",
+      "testimonial1": {
+        "text": "The FRITT SINN program has made such a difference in our lives. Our child has shown remarkable progress.",
+        "author": "Sarah M."
+      },
+      "testimonial2": {
+        "text": "The support we received was exceptional. The team truly understands what families need.",
+        "author": "John D."
+      }
+    },
+    "contact": {
+      "needHelp": "Need help or have questions? Reach out to us:",
+      "email": "fromabove@protonmail.com"
+    }
+  },
+  "donate": {
+    "title": "Support Our Mission",
+    "subtitle": "Your donation helps us provide essential psychological support to children and families in need. Every contribution makes a difference in creating positive change.",
+    "ways": {
+      "title": "Ways to Give",
+      "oneTime": {
+        "title": "One-Time Donation",
+        "description": "Make an immediate impact with a single contribution of any amount.",
+        "button": "Donate Now"
+      },
+      "monthly": {
+        "title": "Monthly Support",
+        "description": "Join our community of monthly donors and help ensure sustainable support.",
+        "button": "Become a Monthly Donor"
+      }
+    },
+    "impact": {
+      "title": "Your Impact",
+      "points": [
+        "Support psychological care for children and families in need",
+        "Help expand our FRITT SINN program to reach more communities",
+        "Enable professional training and community outreach initiatives"
+      ]
+    },
+    "contact": {
+      "text": "For questions about donations or other ways to support our mission:",
+      "email": "fromabove@protonmail.com"
+    }
+  },
+  "programs": {
+    "title": "Our Programs",
+    "frittSinn": {
+      "title": "FRITT SINN Program",
+      "description": "The FRITT SINN program is the foundation of our work, designed to prevent psychiatric diagnoses by fostering self-awareness, emotional resilience, and social intelligence. It is a structured yet adaptable system that helps individuals gain control over their thoughts, emotions, and interpersonal relationships.",
+      "objectives": {
+        "title": "Core Objectives",
+        "selfReeducation": "Self-Reeducation – Individuals learn to become the authors of their own personal and psychological narratives.",
+        "socialDevelopment": "Social Development – Strengthening interpersonal relationships and fostering teamwork, collaboration, and tolerance.",
+        "emotionalMastery": "Emotional Mastery – Developing coping mechanisms to handle stress, frustration, and emotional setbacks.",
+        "professionalGrowth": "Professional & Personal Growth – Encouraging critical thinking, problem-solving, and entrepreneurial mindsets."
+      },
+      "tools": {
+        "title": "The 12 Multifocal Tools",
+        "description": "Our program is structured around 12 core tools for personal transformation:",
+        "list": [
+          "Philosophical Principles for Self-Growth",
+          "Becoming the Author of Your Own Story",
+          "Managing Thoughts Effectively",
+          "Emotional Regulation & Protection",
+          "Memory & Re-editing the Unconscious",
+          "Active Listening & Meaningful Conversations",
+          "Mastering Self-Dialogue & Reflection",
+          "Recognizing and Creating Beauty in Life",
+          "Unlocking Creativity & Entrepreneurial Thinking",
+          "Balancing Discipline with Aspirations",
+          "Entrepreneurship as a Life Skill",
+          "Building Resilience & Existential Intelligence"
+        ],
+        "note": "These tools have been rigorously analyzed using the Theory of Multifocal Intelligence (TMI) to ensure their effectiveness in promoting long-term mental well-being."
+      }
+    },
+    "supportGroups": {
+      "title": "Support Groups",
+      "description": "We provide safe spaces where children, parents, and caregivers can share their experiences, receive guidance, and support one another.",
+      "benefits": [
+        "Build a sense of community and belonging",
+        "Provide a non-judgmental environment for open discussions",
+        "Equip families with practical coping strategies for mental well-being"
+      ]
+    },
+    "workshops": {
+      "title": "Educational Workshops",
+      "description": "To further support individuals, we offer specialized workshops tailored to different audiences:",
+      "audiences": {
+        "parents": "Parents and Caregivers – Learn how to support children's emotional needs",
+        "educators": "Educators and Professionals – Gain tools for fostering resilience and psychological well-being",
+        "children": "Children and Youth – Develop skills for self-awareness, problem-solving, and social interaction"
+      }
+    },
+    "commitment": "From Above is committed to equipping individuals with the knowledge and confidence to lead fulfilling lives.",
+    "contact": {
+      "text": "Contact us to learn more:",
+      "email": "fromabove@protonmail.com"
+    }
+  },
+  "about": {
+    "title": "About From Above",
+    "mission": {
+      "title": "Our Mission",
+      "description": "From Above is a dedicated initiative aimed at fostering mental well-being and self-development through the FRITT SINN program, a global tool for preventing psychiatric diagnoses. We believe that every individual has the power to shape their own life story and develop the skills needed to navigate emotional, social, and professional challenges. Our goal is to empower children, youth, parents, and professionals with the knowledge and tools for psychological self-care and personal growth."
+    },
+    "program": {
+      "title": "The FRITT SINN Program",
+      "description": "Our specialized approach combines evidence-based practices with compassionate support, focusing on:",
+      "assessment": "Individual psychological assessment and care planning",
+      "therapy": "Family-centered therapy sessions",
+      "creative": "Creative expression and play therapy",
+      "skills": "Social skills development",
+      "support": "Educational support and advocacy"
+    },
+    "approach": {
+      "title": "Our Approach",
+      "description": "We understand that every child's journey is unique. Our team of experienced professionals works closely with families to create personalized care plans.",
+      "point1": "Comprehensive assessment and individualized planning",
+      "point2": "Family-centered approach with active parent involvement",
+      "point3": "Integration of creative and therapeutic techniques"
+    },
+    "values": {
+      "title": "Our Values",
+      "empowerment": {
+        "title": "Empowerment",
+        "description": "Enabling individuals to take control of their mental well-being"
+      },
+      "empathy": {
+        "title": "Empathy",
+        "description": "Understanding and connecting with each person's unique experience"
+      },
+      "quality": {
+        "title": "Quality Care",
+        "description": "Delivering evidence-based, professional support"
+      },
+      "community": {
+        "title": "Community",
+        "description": "Building supportive networks for lasting change"
+      },
+      "holistic": {
+        "title": "Holistic Growth",
+        "description": "Nurturing emotional, social, and personal development"
+      }
+    },
+    "contact": {
+      "text": "Ready to learn more about how we can help?",
+      "email": "fromabove@protonmail.com"
+    },
+    "slogan": "Because every child deserves to shine"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "getInTouch": "Get in Touch",
+    "helpMessage": "We're here to help. Send us a message and we'll respond as soon as possible.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "message": "Message",
+      "messagePlaceholder": "How can we help?",
+      "submit": "Send Message"
+    },
+    "otherWays": "Other Ways to Reach Us",
+    "email": "Email",
+    "hours": "Hours",
+    "workdays": "Monday - Friday",
+    "workHours": "9:00 AM - 5:00 PM CET",
+    "response": "Response Time",
+    "responseTime": "We aim to respond to all inquiries within 24 hours"
+  },
+  "services": {
+    "title": "Our Services",
+    "psychological": {
+      "title": "Personalized Psychological Support",
+      "description": "We understand that every individual's journey is unique. Our team of professionals offers personalized assessments and tailored psychological support, including:",
+      "evaluations": "Comprehensive mental health evaluations",
+      "carePlans": "Customized psychological care plans",
+      "crisis": "Crisis intervention and emotional support"
+    },
+    "family": {
+      "title": "Family-Centered Therapy",
+      "description": "Families play a critical role in the well-being of a child. Our family-focused therapy sessions provide:",
+      "parental": "Parental guidance to support a nurturing home environment",
+      "sibling": "Sibling and extended family support to strengthen relationships",
+      "group": "Group therapy options to foster healthy family communication"
+    },
+    "creative": {
+      "title": "Creative & Expressive Therapies",
+      "description": "For children and youth, creative expression is often the best way to process emotions and develop coping skills. We offer:",
+      "art": "Art and Play Therapy – Encouraging emotional expression through creativity",
+      "social": "Social Development Workshops – Helping children build confidence and communication skills",
+      "group": "Interactive Group Activities – Providing opportunities for teamwork, empathy, and personal growth"
+    },
+    "professional": {
+      "title": "Professional Training & Community Support",
+      "description": "Beyond direct services, we are committed to building a network of trained professionals and community advocates. Our services include:",
+      "workshops": "Educational workshops for teachers, caregivers, and mental health professionals",
+      "community": "Community outreach initiatives to raise awareness about mental health and resilience",
+      "resources": "Online resources and support materials for self-guided learning"
+    },
+    "contact": {
+      "text": "From Above is dedicated to ensuring that children, families, and professionals have access to effective, compassionate, and evidence-based psychological services to promote long-term well-being and success.",
+      "email": "fromabove@protonmail.com"
+    }
+  }
+}
