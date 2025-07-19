@@ -199,8 +199,11 @@
       "emailPlaceholder": "din@epost.com",
       "message": "Melding",
       "messagePlaceholder": "Hvordan kan vi hjelpe?",
-      "submit": "Send Melding"
+      "submit": "Send Melding",
+      "required": "Vennligst fyll ut alle felter"
     },
+    "success": "Meldingen ble sendt",
+    "error": "Noe gikk galt",
     "otherWays": "Andre Måter å Nå Oss På",
     "email": "E-post",
     "hours": "Åpningstider",
@@ -242,6 +245,50 @@
     "contact": {
       "text": "From Above er dedikert til å sikre at barn, familier og fagfolk har tilgang til effektive, medfølende og evidensbaserte psykologiske tjenester for å fremme langsiktig velvære og suksess.",
       "email": "fromabove@protonmail.com"
+    }
+  },
+  "login": {
+    "title": "Velkommen tilbake",
+    "email": "E-post",
+    "emailPlaceholder": "din@epost.com",
+    "password": "Passord",
+    "passwordPlaceholder": "••••••••",
+    "submit": "Logg inn",
+    "noAccount": "Har du ikke en konto?",
+    "signUp": "Registrer deg"
+  },
+  "parents": {
+    "title": "Informasjon for foreldre",
+    "supportingChild": {
+      "title": "Støtte til barnet ditt",
+      "text": "Som forelder spiller du en viktig rolle i ditt barns psykiske helse. Vi støtter deg med ressurser, veiledning og profesjonell omsorg slik at barnet ditt kan blomstre."
+    },
+    "services": {
+      "title": "Våre tjenester for familier",
+      "familyCounseling": "Familierådgivning",
+      "familyCounselingDesc": "Felles samtaler for å styrke familiebånd og forbedre kommunikasjonen",
+      "parentGroups": "Foreldregrupper",
+      "parentGroupsDesc": "Møt andre foreldre i lignende situasjon",
+      "workshops": "Kurs og workshops",
+      "workshopsDesc": "Lær strategier for å støtte ditt barns emosjonelle utvikling",
+      "individual": "Individuell terapi for barn",
+      "individualDesc": "Profesjonell støtte tilpasset ditt barns behov"
+    },
+    "gettingStarted": {
+      "title": "Kom i gang",
+      "intro": "Det første steget kan føles overveldende, men vi gjør prosessen så enkel som mulig. Slik gjør du:",
+      "steps": [
+        "Kontakt oss for å avtale en første konsultasjon",
+        "Fullfør vår omfattende vurdering",
+        "Møt teamet vårt for å diskutere ditt barns behov",
+        "Utvikle en personlig behandlingsplan"
+      ]
+    },
+    "contact": {
+      "title": "Kontakt oss",
+      "text": "Klar for å ta neste steg? Vi svarer gjerne på spørsmål og hjelper deg i gang.",
+      "emailButton": "Send e-post",
+      "formButton": "Kontaktskjema"
     }
   }
 }

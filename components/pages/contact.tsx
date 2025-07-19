@@ -1,13 +1,47 @@
 "use client";
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { FadeIn } from "@/components/animations/fade-in";
 import { getTranslation } from "@/lib/translations";
 import type { Locale } from "@/lib/translations";
+import { useToast } from "@/hooks/use-toast";
 
 export function ContactContent({ locale }: { locale: string }) {
   const t = (key: string) => getTranslation(locale as Locale, `contact.${key}`);
+  const { toast } = useToast();
+  const [form, setForm] = useState({ name: "", email: "", message: "" });
+  const [sending, setSending] = useState(false);
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (!form.name || !form.email || !form.message) {
+      toast({ title: t('form.required') });
+      return;
+    }
+    setSending(true);
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form)
+      });
+      if (res.ok) {
+        toast({ title: t('success') });
+        setForm({ name: '', email: '', message: '' });
+      } else {
+        throw new Error('Failed');
+      }
+    } catch {
+      toast({ title: t('error') });
+    } finally {
+      setSending(false);
+    }
+  };
 
   return (
     <main className="pt-20 min-h-screen bg-gradient-to-b from-gray-900 to-gray-800">
@@ -26,7 +60,7 @@ export function ContactContent({ locale }: { locale: string }) {
             </FadeIn>
             
             <FadeIn delay={0.2}>
-              <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
+              <form className="space-y-6" onSubmit={handleSubmit}>
                 <div>
                   <label htmlFor="contact-name" className="block text-sm font-medium text-gray-300 mb-1">
                     {t('form.name')}
@@ -35,9 +69,11 @@ export function ContactContent({ locale }: { locale: string }) {
                     type="text"
                     name="name"
                     id="contact-name"
+                    value={form.name}
+                    onChange={handleChange}
                     autoComplete="off"
                     spellCheck="false"
-                    className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg 
+                    className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg
                              focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all
                              text-white placeholder-gray-400"
                     placeholder={t('form.namePlaceholder')}
@@ -52,9 +88,11 @@ export function ContactContent({ locale }: { locale: string }) {
                     type="email"
                     name="email"
                     id="contact-email"
+                    value={form.email}
+                    onChange={handleChange}
                     autoComplete="off"
                     spellCheck="false"
-                    className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg 
+                    className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg
                              focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all
                              text-white placeholder-gray-400"
                     placeholder={t('form.emailPlaceholder')}
@@ -69,15 +107,17 @@ export function ContactContent({ locale }: { locale: string }) {
                     id="contact-message"
                     name="message"
                     rows={4}
+                    value={form.message}
+                    onChange={handleChange}
                     spellCheck="false"
-                    className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg 
+                    className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg
                              focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all
                              text-white placeholder-gray-400"
                     placeholder={t('form.messagePlaceholder')}
                   />
                 </div>
-                
-                <Button type="submit" className="w-full md:w-auto">
+
+                <Button type="submit" disabled={sending} className="w-full md:w-auto">
                   {t('form.submit')}
                 </Button>
               </form>
