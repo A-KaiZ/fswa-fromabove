@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, X, Search, ChevronDown, Heart } from "lucide-react";
+import { Menu, X, ChevronDown, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { LanguageSwitcher } from "./language-switcher";
 import { usePathname } from "next/navigation";
@@ -81,22 +81,6 @@ export function Navbar() {
               </div>
 
               <div className="flex items-center space-x-4 ml-4">
-                <div className="relative">
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
-                  <input
-                    type="search"
-                    name="search"
-                    aria-label={t('search')}
-                    placeholder={t('search')}
-                    autoComplete="off"
-                    spellCheck="false"
-                    suppressHydrationWarning
-                    className="w-[200px] pl-10 pr-4 py-2 text-sm bg-gray-800 border border-gray-700 
-                             rounded-full focus:outline-none focus:border-blue-500 transition-all
-                             text-gray-100 placeholder-gray-400"
-                  />
-                </div>
-
                 <LanguageSwitcher />
 
                 <Link href={`/${locale}/donate`}>
@@ -139,21 +123,6 @@ export function Navbar() {
                 />
               ))}
               <div className="pt-4 px-4 space-y-4 border-t border-gray-800">
-                <div className="relative">
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
-                  <input
-                    type="search"
-                    name="search-mobile"
-                    aria-label={t('search')}
-                    placeholder={t('search')}
-                    autoComplete="off"
-                    spellCheck="false"
-                    suppressHydrationWarning
-                    className="w-full pl-10 pr-4 py-2 text-sm bg-gray-800 border border-gray-700 
-                             rounded-full focus:outline-none focus:border-blue-500 transition-all
-                             text-gray-100 placeholder-gray-400"
-                  />
-                </div>
                 <Link href={`/${locale}/donate`}>
                   <Button className="w-full bg-blue-500 hover:bg-blue-600 text-white rounded-full 
                                    flex items-center justify-center space-x-2">
